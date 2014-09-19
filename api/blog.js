@@ -5,9 +5,8 @@ var bodyParser = require('body-parser'); //bodyparser + json + urlencoder
 var morgan  = require('morgan'); // logger
 var tokenManager = require('./config/token_manager');
 var secret = require('./config/secret');
-
+var a = 123;
 app.listen(3001);
-app.use(bodyParser());
 app.use(morgan());
 
 //Routes
